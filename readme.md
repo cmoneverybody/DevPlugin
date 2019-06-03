@@ -10,7 +10,7 @@
     
     b)
     
-        Name: "copy source" 
+        Name: "fiddler source" 
         Program: "node.exe"
         Arguments: "C:\sbis\DevPlugin\path-to-fiddler.js $ProjectFileDir$ $FilePath$"
 3. Add two buttons to main toolbar.
