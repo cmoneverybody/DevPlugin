@@ -2,6 +2,7 @@
   "name": "DevPlugin",
   "version": "1.0.0",
   "dependencies": {
-    "clipboardy": "latest"
+    "clipboardy": "latest",
+    "openurl": "latest"
   }
 }
