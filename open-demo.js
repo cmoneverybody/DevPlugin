@@ -3,7 +3,7 @@ const inputFileName = process.argv[2];
 const urlPrefix = 'http://localhost:777/DemoStand/app/';
 
 function extractDemoPath(fileName) {
-   const matches = fileName.match(/[a-z]+-demo.+/img);
+   const matches = fileName.match(/([a-z,-]+)-demo.+/img);
    if (matches && matches.length) {
       let url = matches[0];
       url = url.replaceAll('\\', '/');
